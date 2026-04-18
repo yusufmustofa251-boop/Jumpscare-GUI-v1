@@ -24,6 +24,8 @@ MadeByTeamK00pkidd.Name = "MadeByTeamK00pkidd"
 MadeByTeamK00pkidd.Parent = ScareGui
 MadeByTeamK00pkidd.BackgroundColor3 = Color3.fromRGB(0, 20, 0)
 MadeByTeamK00pkidd.BorderColor3 = Color3.fromRGB(0, 255, 0)
+MadeByTeamK00pkidd.Active = true
+MadeByTeamK00pkidd.Selectable = true
 MadeByTeamK00pkidd.BorderSizePixel = 4
 MadeByTeamK00pkidd.Position = UDim2.new(0.303658545, 0, 0.0934959352, 0)
 MadeByTeamK00pkidd.Size = UDim2.new(0, 376, 0, 344)
@@ -163,7 +165,7 @@ Scare_8.BorderSizePixel = 3
 Scare_8.Position = UDim2.new(0.0372340418, 0, 0.819767416, 0)
 Scare_8.Size = UDim2.new(0, 146, 0, 46)
 Scare_8.Font = Enum.Font.FredokaOne
-Scare_8.Text = "flashing jumpscares"
+Scare_8.Text = "You Are An Idiot!"
 Scare_8.TextColor3 = Color3.fromRGB(255, 255, 255)
 Scare_8.TextScaled = true
 Scare_8.TextSize = 14.000
@@ -445,8 +447,8 @@ local function OOSHJT_fake_script() -- Scare_8.LocalScript
 	end)
 end
 coroutine.wrap(OOSHJT_fake_script)()
-local function POXI_fake_script() -- MadeByRedkidd95.Drag 
-	local script = Instance.new('LocalScript', MadeByRedkidd95)
+local function POXI_fake_script() -- MadeByTeamK00pkidd
+	local script = Instance.new('LocalScript', MadeByTeamK00pkidd)
  
 	local UserInputService = game:GetService("UserInputService")
 	local runService = (game:GetService("RunService"));
